@@ -15,7 +15,7 @@ import argparse
 # construct the argument parser and parse the arguments
 ap = argparse.ArgumentParser()
 ap.add_argument("-d", "--dataset", required=True,
-help="path to input dataset")
+    elp="path to input dataset")
 args = vars(ap.parse_args())
 
 # grab the list of images that we'll be describing
